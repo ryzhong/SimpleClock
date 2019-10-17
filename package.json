@@ -4,7 +4,8 @@
   "description": "# A simple clock using react and express",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -d --watch"
+    "build": "webpack -d --watch",
+    "start": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/ryzhong/SimpleClock#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^1.19.4",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
